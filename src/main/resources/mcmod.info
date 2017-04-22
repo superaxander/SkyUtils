@@ -1,0 +1,16 @@
+[
+{
+  "modid": "skyutil",
+  "name": "SkyUtil",
+  "description": "Simple additions for my modpack",
+  "version": "1.0.0",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["superaxander"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
