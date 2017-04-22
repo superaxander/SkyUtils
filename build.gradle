@@ -23,6 +23,7 @@ compileJava {
 minecraft {
     version = "1.10.2-12.18.3.2281"
     runDir = "run"
+    coreMod = "alexanders.mods.skyutil.SkyUtilPlugin"
     
     // the mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   snapshot are built nightly.
@@ -55,6 +56,13 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
+}
+
+jar {
+    manifest {
+        attributes 'FMLCorePlugin': 'alexanders.mods.skyutil.SkyUtilPlugin'
+        attributes 'FMLCorePluginContainsFMLMod': 'true'
+    }
 }
 
 processResources
