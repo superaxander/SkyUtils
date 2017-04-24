@@ -1,0 +1,7 @@
+item.dustCharcoal.name=Pulverized Charcoal
+item.dustCoal.name=Pulverized Coal
+item.dustWood.name=Sawdust
+item.dustSaltpeter.name=Niter
+item.grinding_wheel.name=Grinding Wheel
+item.detection_fixer.name=Detection Fixer
+itemGroup.SkyUtil=SkyUtil
